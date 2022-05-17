@@ -1,0 +1,33 @@
+.header{
+    @extend %background-configuracion;
+    background-image: $background-principal;
+    background-color: $color-principal;
+    opacity: 1.5;
+    font-family: $font-total;
+
+}
+
+
+.nav-link {
+
+    font-size: map-get($tamanio-texto, barranav);
+    margin: 22px;
+
+    &:hover {
+        transform: scale(1.5);
+        transition: $transitions-usada;
+    }
+
+}
+    
+.logo{
+
+    width: 80px;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: $transitions-usada;
+    }
+
+}
+

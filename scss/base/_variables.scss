@@ -1,0 +1,33 @@
+
+$font-total: 'Shadows Into Light', cursive;
+
+$background-principal: url(../Imagenes/fondonav3.jpg);
+
+
+$color-principal: green;
+
+
+$transitions-usada: transform 1s;
+
+
+$tamanio-texto:(
+    titulo: 56px,
+    barranav: 48px,
+    formulario: 18px
+);
+
+
+%background-configuracion {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+};
+
+
+
+@mixin flexbox ($justify, $align){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+

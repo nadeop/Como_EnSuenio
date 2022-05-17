@@ -1,0 +1,28 @@
+.text-center {
+    font-family: $font-total;
+}
+
+.formulario{
+    list-style: none;
+    font-size: map-get($tamanio-texto, formulario);
+    line-height: 38px;
+    font-family: $font-total;
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+}
+
+section{
+    font-family: $font-total;
+    height: 500px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.text-center {
+    font-size: map-get($tamanio-texto, titulo);
+}
+
+

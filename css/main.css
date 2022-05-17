@@ -1,0 +1,66 @@
+.footer, .header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.footer {
+  background-image: url(../Imagenes/fondonav3.jpg);
+  background-color: green;
+  opacity: 1.5;
+  font-family: "Shadows Into Light", cursive; }
+
+.footer__logo {
+  width: 80px; }
+  .footer__logo:hover {
+    transform: scale(1.2);
+    transition: transform 1s; }
+
+.footer__logos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.footer {
+  display: block; }
+
+.header {
+  background-image: url(../Imagenes/fondonav3.jpg);
+  background-color: green;
+  opacity: 1.5;
+  font-family: "Shadows Into Light", cursive; }
+
+.nav-link {
+  font-size: 48px;
+  margin: 22px; }
+  .nav-link:hover {
+    transform: scale(1.5);
+    transition: transform 1s; }
+
+.logo {
+  width: 80px; }
+  .logo:hover {
+    transform: scale(1.2);
+    transition: transform 1s; }
+
+.text-center {
+  font-family: "Shadows Into Light", cursive; }
+
+.formulario {
+  list-style: none;
+  font-size: 18px;
+  line-height: 38px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  margin: 20px;
+  padding: 25px; }
+
+section {
+  font-family: "Shadows Into Light", cursive;
+  height: 500px;
+  width: 150px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px; }
+
+.text-center {
+  font-size: 56px; }

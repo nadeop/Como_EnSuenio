@@ -1,0 +1,26 @@
+.footer{
+    @extend %background-configuracion;
+    background-image: $background-principal;
+    background-color: $color-principal;
+    opacity: 1.5;
+    font-family: $font-total;
+}
+
+.footer__logo{
+    width: 80px;
+
+    &:hover {
+        transform: scale(1.2);
+        transition: $transitions-usada;
+    }
+
+}
+
+.footer__logos{
+    @include flexbox (space-around, center);
+}
+
+
+.footer{
+    display: block;
+}
